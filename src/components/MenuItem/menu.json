@@ -1,0 +1,247 @@
+[
+    {
+        "id": 1,
+        "name": "Blueberry Pancake Combo",
+        "description": "Two Large Fluffy Blueberry Pancakes served with Two Eggs your style, Choice of Bacon, Sausage Link, Patty Sausage, or Ham. Side Hash Browns or Homemade Seasoned Potatoes",
+        "price": "$12.75",
+        "note": "Add Side of Fruit for additional cost.",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 2,
+        "name": "Chocolate Chip Pancake Combo",
+        "description": "Two Large Fluffy Pancakes with Chocolate Chips, served with Two Eggs your style, Choice of Bacon, Sausage Link, Patty Sausage, or Ham. Side of Hash Browns or Homemade Seasoned Potatoes",
+        "price": "$12.75",
+        "note": "Add Side of Fruit for additional cost.",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 3,
+        "name": "Caramel Pecan Pancake Combo",
+        "description": "Two Large Fluffy Pancakes with Homemade Pecans topped with Caramel Sauce. Served with Two Eggs your style, Choice of Bacon, Sausage Link, Patty Sausage, or Ham. Side of Hash Browns or Homemade Seasoned Potatoes",
+        "price": "$12.75",
+        "note": "Add Side of Fruit for additional cost.",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 4,
+        "name": "Pancake Combo",
+        "description": "Two Large Golden Fluffy Pancakes served with Two Eggs your style, Choice of Sausages, Bacon, Sausage Patty or Ham and Side of Hash Browns or Homemade Seasoned Potatoes.",
+        "price": "$12.00",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 5,
+        "name": "Stack",
+        "description": "Three Large Golden Fluffy Pancakes served with Butter",
+        "price": "$6.00",
+        "note": "Add Side of Fruit for additional cost.",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 6,
+        "name": "Short Stack",
+        "description": "Two Large Golden Fluffy Pancakes served with Butter",
+        "price": "$4.00",
+        "note": "Add Side of Fruit for additional cost.",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 7,
+        "name": "Cinnamon Roll French Toast",
+        "description": "One of our Huge Homemade Cinnamon Rolls split into halves, egg battered and grilled until golden brown. Finished with a dusting of powdered sugar. Served with Two Sausage Links or Two Bacon or Make it a Combo",
+        "price": "$10.00",
+        "note": "$14.00 to make it a combo, Add Side of Fruit for additional cost.",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 8,
+        "name": "French Toast",
+        "description": "Two Slices of rich and delicious Texas style Toast, with powder sugar.",
+        "price": "$6.00",
+        "note": "Add Side of Fruit for additional cost.",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 9,
+        "name": "French Toast Combo",
+        "description": "Two Slices of rich and delicious Texas style Toast, Served with Two Eggs your style, Choice of Sausage Patty, Bacon, Sausage or Ham. Side of Hash Browns or Homemade Seasoned Potatoes",
+        "price": "$12.00",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 10,
+        "name": "Waffle",
+        "description": "Our Traditional Golden Brown Belgian Waffle.",
+        "price": "$14.00",
+        "note": "Add Side of Fruit for additional cost.",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 11,
+        "name": "Waffle Combo",
+        "description": "Our Traditional Golden Brown Belgian Waffle. Served with Two Eggs your style, Choice of Bacon, Sausage or Ham. Side of Hash Browns or Homemade Seasoned Potatoes",
+        "price": "$12.50",
+        "note": "Add Side of Fruit for additional cost.",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 12,
+        "name": "Oatmeal or Grits",
+        "description": "Made by order. Served with Brown Sugar, Raisins, and Milk.",
+        "price": "$5.00",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 13,
+        "name": "Eggs Benedict",
+        "description": "Grilled Canadien Bacon on an English Muffin, Topped with Two Poached Eggs and Homemade Hollandaise sauce. Served with Choice of Hash Browns or Homemade Seasoned Potatoes.",
+        "price": "$14.00",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 14,
+        "name": "Monte Cristo",
+        "description": "Egg battered white bread is grilled until golden, filled with Swiss cheese, smoked ham and roasted turkey. Lightly dusted with powder sugar and side of raspberry jam. Side choice of Hash browns or Homemade Seasoned Potatoes.",
+        "price": "$14.00",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 15,
+        "name": "The Classic",
+        "description": "Two Eggs any style with Choice of Bacon, Sausage or Ham. Choice of Hash Browns or Homemade Seasoned Potatoes and your Choice of Toast.",
+        "price": "$12.50",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 16,
+        "name": "Biscuits and Gravy",
+        "description": "Two Biscuits smothered in our Homemade Sausage Gravy served with Two Eggs any style and Side of Hash Browns or Homemade Seasoned Potatoes",
+        "price": "$13.00",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 17,
+        "name": "Simple Fit",
+        "description": "Egg Whites scrambled with fresh Spinach and Tomato, plus Turkey Bacon, Fresh Fruit and English Muffin",
+        "price": "$12.50",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 18,
+        "name": "Country Fried Steak",
+        "description": "8 Ounces of Breaded, Well-Seasoned Steak fried until Golden. Served with Country Gravy, Two Eggs your style. Served with Side of Hash Browns or Homemade Seasoned Potatoes and Choice of Toast.",
+        "price": "$15.75",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 19,
+        "name": "Steak & Eggs",
+        "description": "Angus New York Steak lightly seasoned with Two Eggs your style. Choice of Hash Browns or Homemade Seasoned Potatoes and Choice of Toast.",
+        "price": "$16.95",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 20,
+        "name": "Corn Beef Hash & Eggs",
+        "description": "Our Homemade Corned Beef Hash mixed with Freshly Chopped Onions and Homemade Style Potatoes. Served with Two farm fresh Eggs your style. Side of Hash Browns or Homemade Seasoned Potatoes and Choice of Toast.",
+        "price": "$14.00",
+        "menuID": "signature-breakfast"
+    },
+    {
+        "id": 21,
+        "name": "Meat Lovers",
+        "description": "Our savory Three Meat Omelette freshly made with Bacon, Ham, Sausage, Fajita Mix, and Cheddar Cheese. Side of Hash Browns or Homemade Seasoned Potatoes and Choice of Toast",
+        "price": "$12.95",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "three-egg-omelettes"
+    },
+    {
+        "id": 22,
+        "name": "Denver",
+        "description": "Our delicious blend of Ham, Cheese, and fresh Fajita Mix. Served with Hash Browns or Homemade Seasoned Potatoes and Choice of Toast",
+        "price": "$12.50",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "three-egg-omelettes"
+    },
+    {
+        "id": 23,
+        "name": "Lumberjack",
+        "description": "Homemade Ham, Sausage, Fresh Spinach, Mushrooms, and Cheddar Cheese. Served with Hash Browns or Homemade Seasoned Potatoes and Choice of Toast",
+        "price": "$12.75",
+        "menuID": "three-egg-omelettes"
+    },
+    {
+        "id": 24,
+        "name": "Kielbasa",
+        "description": "Our delicious blend of sliced Kielbasa Meat and Caramelized Onions, omatoes and Swiss Cheese. Served with Hash Browns or Homemade Seasoned Potatoes and Choice of Toast",
+        "price": "$12.75",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "three-egg-omelettes"
+    },
+    {
+        "id": 25,
+        "name": "Philly Omelette",
+        "description": "Filled with savory things you crave. Juicy Shaved Beef, Fresh Mushrooms, Fajita Mix and Swiss Cheese. Served with Hash Browns or Homemade Seasoned Potatoes and Choice of Toast",
+        "price": "$12.75",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "three-egg-omelettes"
+    },
+    {
+        "id": 26,
+        "name": "HWY 2 Ultimate",
+        "description": "Our Most Popular Omelette. Freshly made with diced Sausage, Bacon, Fajita Mix, Spinach, and Cheddar Cheese. Choice of Hash Browns or Homemade Seasoned Potatoes and Choice of Toast",
+        "price": "$12.95",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "three-egg-omelettes"
+    },
+    {
+        "id": 27,
+        "name": "Cheddar Cheese Omelette",
+        "description": "Three Egg Omelette stuffed with Fresh Cheddar Cheeses. Served with Hash Browns or Homemade Seasoned Potatoes and Choice of Toast",
+        "price": "$11.00",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "three-egg-omelettes"
+    },
+    {
+        "id": 28,
+        "name": "Veggie Omelette",
+        "description": "Our Veggie Omelette freshly made with Spinach, Mushrooms, Fajita Mix, Tomatoes and Swiss Cheese. Served with Hash Browns or Homemade Seasoned Potatoes and Choice of Toast",
+        "price": "$12.75",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "three-egg-omelettes"
+    },
+    {
+        "id": 29,
+        "name": "Chilaquiles",
+        "description": "Classic Mexican Dish of warm Tortilla Chips grilled with Onions, Tomato and our Savory Sauce. Served with Two Eggs your style, Rice and Beans. Topped with Queso Fresco and Sour Cream",
+        "price": "$13.00",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "signature-fusion"
+    },
+    {
+        "id": 30,
+        "name": "Huevos con Chorizo",
+        "description": "Spicy Mexican Sausage fried with Onions and Tomatoes in Scrambled Eggs Served with Rice and Beans.",
+        "price": "$13.00",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "signature-fusion"
+    },
+    {
+        "id": 31,
+        "name": "Machaca",
+        "description": "Seasoned shredded Beef grilled with Fresh Onions and Tomatoes all scrambled with Eggs and served with Rice and Beans.",
+        "price": "$13.00",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "signature-fusion"
+    },
+    {
+        "id": 32,
+        "name": "Enchiladas Montadas",
+        "description": "Three Corn Tortillas with Homemade Red Sauce Enchiladas stuffed with Jack Cheese and Onions, topped with Queso Fresco, Sour Cream and Two Eggs your style.",
+        "price": "$14.00",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "signature-fusion"
+    }
+]

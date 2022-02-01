@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { GiChefToque } from "react-icons/gi";
+import { NavLink as Link } from 'react-router-dom'
 
 export const Icon = styled(GiChefToque)`
     color: #000;
@@ -24,17 +25,46 @@ export const MenuNav = styled.div`
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-`
-export const MenuHeading = styled.a`
-    color: #E85A4F;
-    background-color: inherit;
-    font-size: 14px;    
-    font-family: 'Sora', sans-serif;
-    border-style: none;
     padding: 15px;
+    height: 70px;
+
+    @media screen and (max-width: 680px) {
+        height: 250px;
+        flex-direction: column-reverse;
+    }
 `;
 
-/* font-family: 'Mochiy Pop P One'; */
+export const MenuHeading = styled(Link)`
+    text-decoration: none;
+    margin: auto;
+    background-color: inherit;
+    font-size: 13px;    
+    font-family: 'Sora', sans-serif;
+    border-style: none;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+
+    &:hover {
+        transition: ease-in-out all .25s; 
+        -moz-transition: ease-in-out all .25s;
+        -webkit-transition: ease-in-out all .25s;
+        border-top: 2px solid #E85A4F;
+        border-bottom: 2px solid #E85A4F;
+    }
+`;
+
+export const MenuItemWrapper = styled.div`
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    justify-content: space-evenly;
+    
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+`;
 export const MenuItemD = styled.p`
     color: #8E8D8A;
     background-color: inherit;

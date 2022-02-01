@@ -28,8 +28,6 @@ export const NavLink = styled(Link)`
         -webkit-transition: ease-in-out all .25s;
         color: #E85A4F;
         text-decoration: none;
-        padding: 2rem;
-        border: 1px solid #E85A4F
     }
 `
 

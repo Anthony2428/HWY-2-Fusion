@@ -18,8 +18,8 @@ const Menu = () => {
                     <MenuHeading onClick={() => { setMenuTopic("three-egg-omelettes"); }} activeStyle>Three Egg Omeletes</MenuHeading>
                     <MenuHeading onClick={() => { setMenuTopic("signature-fusion"); }} activeStyle>Signature Fusion</MenuHeading>
                     <MenuHeading onClick={() => { setMenuTopic("south-of-the-border"); }} activeStyle>South of the Border</MenuHeading>
+                    <MenuHeading onClick={() => { setMenuTopic("fusion-burgers"); }} activeStyle>Fusion Burgers</MenuHeading>
                     <MenuHeading onClick={() => { setMenuTopic("fusion-sandwiches"); }} activeStyle>Fusion Sandwiches</MenuHeading>
-                    <MenuHeading onClick={() => { setMenuTopic("fusion-sides"); }} activeStyle>Fusion Sides</MenuHeading>
                 </MenuNav>
                 <MenuDiv>
                     <MenuItemWrapper>

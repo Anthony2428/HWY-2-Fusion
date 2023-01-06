@@ -243,5 +243,168 @@
         "price": "$14.00",
         "note": "Add Side of Avocado for additional cost.",
         "menuID": "south-of-the-border"
+    },
+    {
+        "id": 33,
+        "name": "Huevos Rancheros",
+        "description": "Two Eggs your style on Corn Fried Tortilla topped with Tomatoes, Onions, Fresh Jalapeños in a Red Sauce topped with Queso Fresco.",
+        "price": "$12.00",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "south-of-the-border"
+    },
+    {
+        "id": 34,
+        "name": "Enchiladas Chihuahua",
+        "description": "Three Corn Tortillas, Homestyle Red Sauce stuffed with your choice of Chicken or Shredded Beef. Topped with Sour Cream and Ranchero Cheese. Served with Rice and Beans",
+        "price": "$12.50",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "signature-fusion"
+    },
+    {
+        "id": 35,
+        "name": "Tacos Chihuahua",
+        "description": "Three Homemade Semi-Crispy style Tacos, filled with Chicken or Shredded Beef, Lettuce, Tomoto, Avocado Slices, Sour Cream and Ranchero Cheese with Hot Sauce on the side. Served with Rice and Beans",
+        "price": "$13.00",
+        "menuID": "signature-fusion"
+    },
+    {
+        "id": 36,
+        "name": "Arroz con Pollo",
+        "description": "Sautéed Chicken Breast Strips with Onions and Mushrooms in a Tomato Sauce served on a bed of Spanish Rice. Covered with Cheese and Avocado.",
+        "price": "$16.00",
+        "menuID": "signature-fusion"
+    },
+    {
+        "id": 37,
+        "name": "Pollo Asado",
+        "description": "Marinated Charbroiled Chicken Breast, Sour Cream, Avocado Slices, Fresh Jalapeño. Served with Rice and Beans and Choice of Tortillas",
+        "price": "$16.00",
+        "menuID": "signature-fusion"
+    },
+    {
+        "id": 38,
+        "name": "Carnitas de Puerco",
+        "description": "Hot Pound of Slow Cooked Pork served with Avocado, Rice and Beans, Choice of Tortillas and Hot Sauce on the side.",
+        "price": "$17.00",
+        "menuID": "signature-fusion"
+    },
+    {
+        "id": 39,
+        "name": "Arroz con Camaron",
+        "description": "Sautéed Prawns with Onions and Mushrooms in a Tomato Sauce. Served on a bed of Spanish Rice covered with Jack Cheese and Avocado.",
+        "price": "$17.00",
+        "menuID": "signature-fusion"
+    },
+    {
+        "id": 40,
+        "name": "Camarones Al Mojo de Ajo",
+        "description": "Sautéed Prawns, Freshly Chopped Garlic, Mushrooms, Onions, and Butter. Served with Rice and Beans.",
+        "price": "$16.50",
+        "menuID": "signature-fusion"
+    },
+    {
+        "id": 41,
+        "name": "Camarones Ala Diabla",
+        "description": "Sautéed Prawns, Freshly Mushrooms, Onions, and Bell Peppers in a Spicy Red Sauce. Served with Rice and Beans.",
+        "price": "$16.50",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "signature-fusion"
+    },
+    {
+        "id": 42,
+        "name": "All American Burger",
+        "description": "8 oz. Fresh Ground Chuck served on a Brioche Bun with Mayo, Lettuce, Tomato, Onion, and Pickles.",
+        "price": "$10.50",
+        "note": "Add cheese #1.00.",
+        "menuID": "fusion-burgers"
+    },
+    {
+        "id": 43,
+        "name": "South of the Border Burger",
+        "description": "8 oz. Fresh Ground Beef served on a Brioche Bun with Mayo, Caramelized Red Onions, Cripsy Bacon, Cheddar Cheese, BBQ Sauce, Lettuce, Tomatoes.",
+        "price": "$12.95",
+        "menuID": "fusion-burgers"
+    },
+    {
+        "id": 44,
+        "name": "Swiss Burger",
+        "description": "8 oz. Fresh Ground Beef with Mayo, Sautéed Mushrooms, Onions, Bacon, and Swiss Cheese on a Brioche Bun.",
+        "price": "$12.50",
+        "menuID": "fusion-burgers"
+    },
+    {
+        "id": 45,
+        "name": "Chicken Burger",
+        "description": "Charbroiled Chicken Breast, Mayo, Lettuce, Tomatoes, and Onions with Swiss Cheese.",
+        "price": "$12.50",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "fusion-burgers"
+    },
+    {
+        "id": 46,
+        "name": "Garden Burger",
+        "description": "Veggies and Cheese mixed togerther. Made of Lettuce, Tomato, Pickles, Onions, and Mayo. Served with Fries.",
+        "price": "$12.00",
+        "menuID": "fusion-burgers"
+    },
+    {
+        "id": 47,
+        "name": "Avocado Turkey Sandwich",
+        "description": "Whole Grain Bread, Grilled Turkey, Bacon, Avocado, Lettuce, Tomato, Mayo, and Harvarti Cheese.",
+        "price": "$12.50",
+        "note": "Add One Egg #1.00.",
+        "menuID": "fusion-sandwiches"
+    },
+    {
+        "id": 48,
+        "name": "Club House",
+        "description": "Thinly Sliced Turket Breast, Bacon, Lettuce, Tomato, Mayo, and Swiss Cheese",
+        "price": "$12.50",
+        "menuID": "fusion-sandwiches"
+    },
+    {
+        "id": 49,
+        "name": "B.L.T.",
+        "description": "A nearly perfect balance of Smoky Crispy Bacon, Lettuce, Fresh Tomatoes, and Mayo. Toasted on Sour-Dough Bread.",
+        "price": "$12.00",
+        "menuID": "fusion-sandwiches"
+    },
+    {
+        "id": 50,
+        "name": "Reuben",
+        "description": "An American hot sandwich composed of Corned Beef, Swiss Cheese, and Sauerkraut.",
+        "price": "$12.00",
+        "menuID": "fusion-sandwiches"
+    },
+    {
+        "id": 51,
+        "name": "Torta",
+        "description": "A Mexican Tradition. Choice of Marinated Chicken Breast or Pork Carnitas, Spread of Beans, Lettuce, Avocado, Jalapeños, Onions, Tomatoes, and Mayo on Torta Bread with Fries",
+        "price": "$13.00",
+        "menuID": "fusion-sandwiches"
+    },
+    {
+        "id": 52,
+        "name": "Philly Melt - Chicken",
+        "description": "Juice Shaved Chicken, Fresh Mushrooms, Fajita Mix, and Swiss Cheese served on French Dip Bread",
+        "price": "$12.50",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "fusion-sandwiches"
+    },
+    {
+        "id": 53,
+        "name": "Philly Melt - Beef",
+        "description": "Juice Shaved Beef, Fresh Mushrooms, Fire Roasted Bell Peppers, Onions, and Swiss Cheese served on French Dip Bread",
+        "price": "$12.50",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "fusion-sandwiches"
+    },
+    {
+        "id": 54,
+        "name": "Patty Melt",
+        "description": "8 oz. Ground Beef Chuck Patty cooked until Browned covered with Caramelized Onions and Swiss Cheese on Rye Bread. Served with Fries, Soup, or Salad",
+        "price": "$12.50",
+        "note": "Add Side of Avocado for additional cost.",
+        "menuID": "fusion-sandwiches"
     }
 ]

@@ -1,22 +1,33 @@
-import React from 'react';
-import { PageWrapper, MenuHeading, Icon, MenuNav, MenuItemWrapper } from './pageStyles';
+import React, { useState } from "react";
+import { PageWrapper, MenuHeading, MenuNav, MenuItemWrapper, MenuDiv, MenuWrapper } from './pageStyles';
 import MenuItem from '../components/MenuItem';
+import NavBar from '../components/NavBar';
 
 const Menu = () => {
+    
+    const [menuTopic, setMenuTopic] = useState([]);
+
     return (
         <PageWrapper>
-                {/* <Icon /> */}
+             <NavBar/>
+                <MenuWrapper>
+                    
                 <MenuNav>
-                    <MenuHeading to='signature-breakfast' activeStyle>Signature Breakfast</MenuHeading>
-                    <MenuHeading to='three-egg-omeletes' activeStyle>Three Egg Omeletes</MenuHeading>
-                    <MenuHeading to='signature-fusion' activeStyle>Signature Fusion</MenuHeading>
-                    <MenuHeading to='fusion-sandwiches' activeStyle>Fusion Sandwiches</MenuHeading>
-                    <MenuHeading to='fusion-sides' activeStyle>Fusion Sides</MenuHeading>
+                    <MenuHeading onClick={() => { setMenuTopic("from-the-griddle"); }} activeStyle>From The Griddle</MenuHeading>
+                    <MenuHeading onClick={() => { setMenuTopic("signature-breakfast"); }} activeStyle>Signature Breakfast</MenuHeading>
+                    <MenuHeading onClick={() => { setMenuTopic("three-egg-omelettes"); }} activeStyle>Three Egg Omeletes</MenuHeading>
+                    <MenuHeading onClick={() => { setMenuTopic("signature-fusion"); }} activeStyle>Signature Fusion</MenuHeading>
+                    <MenuHeading onClick={() => { setMenuTopic("south-of-the-border"); }} activeStyle>South of the Border</MenuHeading>
+                    <MenuHeading onClick={() => { setMenuTopic("fusion-sandwiches"); }} activeStyle>Fusion Sandwiches</MenuHeading>
+                    <MenuHeading onClick={() => { setMenuTopic("fusion-sides"); }} activeStyle>Fusion Sides</MenuHeading>
                 </MenuNav>
-                <MenuItemWrapper>
-                    <MenuItem />
-                </MenuItemWrapper>
+                <MenuDiv>
+                    <MenuItemWrapper>
+                        <MenuItem menuTopic={menuTopic}/>
+                    </MenuItemWrapper>
+                </MenuDiv>
+                </MenuWrapper>
         </PageWrapper>
     )
 }
-export default Menu;
+export default Menu; 

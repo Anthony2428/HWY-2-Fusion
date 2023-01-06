@@ -9,24 +9,37 @@ export const Icon = styled(GiChefToque)`
     font-size: 44px;
 `;
 
-export const PageWrapper = styled.div`
+export const Wrapper = styled.div`
     justify-content: center;
-    text-align: center;
     align-items: center;
-    height: 90vh;
+    height: 46vw;
+    width: 100%;
+`;
+export const PageWrapper = styled.div`
     margin: auto;
-    margin-top: 20px;
 `;
 
-export const MenuNav = styled.div`
+export const MenuWrapper = styled.div`
+    border-radius: 50px;
+    margin: 35px 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+`;
+
+export const MenuNav = styled.aside`
+    width: 35%;
     border-top-style: 2px solid #D8C3A5;
     border-bottom-style: 2px solid #D8C3A5;
-    justify-content: space-evenly;
-    margin: auto;
     display: flex;
+    align-content: flex-start;
     flex-wrap: wrap;
-    padding: 15px;
-    height: 70px;
+    padding: 25px;
+    margin-top: 25px;
+    z-index: 2;
+    background-color: #fff;
 
     @media screen and (max-width: 680px) {
         height: 250px;
@@ -34,43 +47,45 @@ export const MenuNav = styled.div`
     }
 `;
 
-export const MenuHeading = styled(Link)`
+export const MenuHeading = styled.p`
     text-decoration: none;
-    margin: auto;
+    text-align: left;
     background-color: inherit;
     font-size: 13px;    
     font-family: 'Sora', sans-serif;
+    padding: 35px;
     border-style: none;
+    margin-top: 25px;
     color: #000;
     cursor: pointer;
     font-weight: bold;
-    padding: 5px;
+    height: 1.5rem;
 
     &:hover {
         transition: ease-in-out all .25s; 
         -moz-transition: ease-in-out all .25s;
         -webkit-transition: ease-in-out all .25s;
-        border-top: 2px solid #E85A4F;
-        border-bottom: 2px solid #E85A4F;
+        color: #E85A4F;
     }
 `;
 
 export const MenuItemWrapper = styled.div`
     margin: auto;
     margin-top: 20px;
-    width: 80%;
+    flex: 50%;
     justify-content: space-evenly;
     
     @media screen and (max-width: 768px) {
         flex-direction: column;
     }
 `;
-export const MenuItemD = styled.p`
-    color: #8E8D8A;
-    background-color: inherit;
-    font-size: 12px;
-    margin-right: 35px;
-`
-export const MenuItemP = styled.span`
-    color: #8E8D8A;
+
+export const MenuDiv = styled.div`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 55.5%;
+    margin-top: 25px;
+    border-left: 2px solid #000;
+    background-color: #fff;
 `;

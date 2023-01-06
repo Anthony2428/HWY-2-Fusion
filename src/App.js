@@ -1,25 +1,21 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/NavBar';
 import Home from './pages';
 import Menu from './pages/menu';
 import MenuItem from './components/MenuItem';
 import Directions from './pages/directions';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import SideMenu from './components/SideMenu';
 
 function App() {
   return (
     <Router>
-      {/* <SideMenu /> */}
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />      
-        <Route path="menu" element={<Menu />}>
-          <Route path="menu/*" element={<MenuItem />} />
-        </Route>
-        <Route path="directions" element={<Directions />} />      
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />      
+          <Route path="menu" element={<Menu />}>
+            <Route path="menu/*" element={<MenuItem />} />
+          </Route>
+          <Route path="directions" element={<Directions />} />      
+        </Routes>
     </Router>
   );
 }

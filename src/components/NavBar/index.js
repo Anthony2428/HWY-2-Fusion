@@ -1,6 +1,9 @@
 import React from "react";
-// import HWYLogo from "../../images/HWY.svg";
+import HWYLogo from "../../images/HWY.png";
 import { NavLink, Nav, Bars, NavMenu } from './navbarStyles';
+import { Logo } from "./navbarStyles";
+import { Link } from 'react-router-dom'
+
 
 const NavBar = () => {
 
@@ -8,17 +11,17 @@ const NavBar = () => {
     <Nav>
     <Bars />
       <NavMenu>
-        <NavLink to='/' activeStyle>Home</NavLink>
-        <NavLink to='menu' activeStyle>Menu</NavLink>
-        <NavLink to='directions' activeStyle>Directions</NavLink>
-        <NavLink to='contact' activeStyle>Contact</NavLink>
-
-        {/* <Logo>
-          <NavLink to='' activeStyle>
+        <NavLink to='/'>Home</NavLink>
+        <NavLink to='menu'>Menu</NavLink>
+        <Logo>
+          <NavLink to='/' activeStyle>
           
           <img src={HWYLogo} alt='HWY2Fusion'/>
           </NavLink>
-        </Logo> */}
+        </Logo>
+        <NavLink to='directions'>Directions</NavLink>
+        <NavLink to='contact'>Contact</NavLink>
+
         </NavMenu>
     </Nav>
 
